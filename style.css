@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* Header */
+
+.top-header {
+    width: 100%;
+}
+
+.center-text {
+    margin-left: 100px;
+}
+
+.left-logo {
+    padding-left: 20px;
+}
+
+
+/* .col-lg-8 {
+    display: flex;
+} */
+
+i {
+    margin-left: 15px;
+}
+
+.mail-info-icon {
+    background-color: lightgrey;
+    color: red;
+    opacity: 60%;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.header-mail-info {
+    margin-top: 10px;
+    display: flex;
+}
+
+.mail-info-box {
+    display: flex;
+}
+
+.mail-info-box:nth-of-type(2) {
+    padding-left: 60px;
+}
+
+.mail-info-box:nth-of-type(1) {
+    border-right: 1px solid lightgray;
+    padding-right: 50px;
+}
+
+.mail-info-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 0.5;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    opacity: 60%;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    width: 130px;
+}
+
+.button a {
+    text-align: center;
+    width: 100px;
+}
+
+.mail-info-text p {
+    color: gray;
+}
+
+.mail-info-text a {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/* @media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+    }
+} */
+
+
+/* header */
+
+
+/* nav */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
+
+ul li {
+    padding: 20px 10px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icon {
+    margin: 40px 50px;
+}
+
+.social-icon a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-icon {
+    background-color: black;
+    border-radius: 12px;
+}
+
+.phone-details {
+    line-height: 0.5;
+    margin-left: 270px;
+    font-size: 16px;
+    /* margin-bottom: 100px; */
+}
+
+.telephone {
+    border-radius: 50px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.phone-details a {
+    font-weight: bold;
+}
+
+
+/* nav */
