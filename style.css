@@ -16,14 +16,16 @@ body {
 }
 
 .row {
-    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 
 /* Header */
 
 .top-header {
-    width: 100%;
+    background-color: #fff;
+    height: 85vh;
 }
 
 .center-text {
@@ -285,6 +287,10 @@ ul li {
     border-left: 1px solid lightgray;
 }
 
+.social-icon .phone-details {
+    display: flex;
+}
+
 
 /* .text1 .text2 {
     display: flex;
@@ -320,4 +326,20 @@ ul li {
     text-decoration: none;
     /* padding-bottom: 20px; */
     /* margin-bottom: 50px; */
+}
+
+.services-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.services-box {
+    display: block;
+}
+
+.services img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
 }
