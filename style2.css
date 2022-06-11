@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+i {
+    color: red;
+    opacity: 60%;
+}
+
+.search_icon i {
+    color: white;
+}
+
+.telephone_icon img {
+    width: 30px;
+}
+
+.banner {
+    background-image: url('./images/01_Home_v2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner_button {
+    margin-top: 50px;
+}
+
+.about p:nth-of-type(1) {
+    color: red;
+    opacity: 75%;
+}
+
+.check_list img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
