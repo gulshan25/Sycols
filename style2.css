@@ -8,6 +8,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* .row {
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
 i {
     color: red;
     opacity: 60%;
@@ -50,3 +56,18 @@ i {
     opacity: 75%;
     font-weight: normal;
 }
+
+.grid_img img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.fa-arrow-right {
+    color: black;
+}
+
+
+/* .learn_button {
+    float: right;
+} */
