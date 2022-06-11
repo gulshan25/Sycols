@@ -44,3 +44,9 @@ i {
     height: 200px;
     object-fit: cover;
 }
+
+.services p:nth-of-type(1) {
+    color: red;
+    opacity: 75%;
+    font-weight: normal;
+}
