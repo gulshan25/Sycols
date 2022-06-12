@@ -94,6 +94,15 @@ i {
     height: 70%;
 }
 
-.row {
+
+/* .row {
     margin: 0 auto;
+} */
+
+.text {
+    color: gray;
+}
+
+.lorem_text {
+    color: gray;
 }
