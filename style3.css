@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ===========================
+ Common CSS
+=========================== */
+
+body {
+    font-family: 'Georgia', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.mail_icon i {
+    background-color: lightgray;
+    border-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-envelope-open-text {
+    color: red;
+    opacity: 60%;
+}
+
+.location_icon i {
+    background-color: lightgray;
+    border-radius: 50% 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-location-dot {
+    color: red;
+    opacity: 60%;
+}
+
+.mail_text span:nth-of-type(1) {
+    color: gray;
+}
+
+.location_text span:nth-of-type(1) {
+    color: gray;
+}
