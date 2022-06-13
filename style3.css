@@ -53,3 +53,14 @@ body {
 .location_text span:nth-of-type(1) {
     color: gray;
 }
+
+.location_icon {
+    border-left: 1px solid lightgray;
+}
+
+.button_area a {
+    background: red;
+    opacity: 60%;
+    padding: 10px;
+    width: 100px;
+}
