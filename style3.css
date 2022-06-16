@@ -17,6 +17,9 @@ body {
     text-decoration: none;
 }
 
+
+/* header */
+
 .container {
     width: 96%;
     margin: 0 auto;
@@ -85,3 +88,39 @@ body {
     width: 100%;
     padding: 15px 0;
 }
+
+.inner_top_header {
+    overflow: hidden;
+}
+
+
+/* header */
+
+
+/* navbar */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+.nav_area {
+    width: 100%;
+    clear: both;
+}
+
+#top_nav_area {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.inner_top_nav {
+    overflow: hidden;
+}
+
+
+/* navbar */
