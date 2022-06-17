@@ -115,8 +115,10 @@ li {
 
 #top_nav_area {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
 }
+
+.navbar a {}
 
 .inner_top_nav {
     overflow: hidden;
@@ -127,5 +129,24 @@ li {
     color: white;
 }
 
+.bi-search {
+    background-color: black;
+}
+
+.bi-telephone-forward {
+    background-color: black;
+    border-radius: 50%;
+}
+
 
 /* navbar */
+
+
+/* banner */
+
+.inner_top_banner {
+    background-image: url('./images/01_Home_v3.png') no-repeat center cover / center;
+}
+
+
+/* banner */
