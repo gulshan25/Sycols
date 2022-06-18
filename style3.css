@@ -144,8 +144,8 @@ li {
 
 /* banner */
 
-.inner_top_banner {
-    background-image: url('./images/01_Home_v3.png') no-repeat center cover / center;
+.banner_area {
+    background-image: url('./images/banner.jpg') no-repeat center cover / center;
 }
 
 
